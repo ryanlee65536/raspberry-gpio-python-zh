@@ -4,7 +4,7 @@
 
 ---------
 # 目录
-- [第一章 RPi.GPIO模块基础知识]
+- [第一章 RPi.GPIO模块基础知识](https://github.com/ryanlee65536/raspberry-gpio-python-zh/commit/137abd31f7fa2535ee4a696d03d1843003858a0c#commitcomment-31458241)
 - [第二章 输入]
 - 第三章 输出
 - 第四章 PWM
