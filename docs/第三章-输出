@@ -1,0 +1,37 @@
+# 第三章 输出
+## 1.首先设置RPi.GPIO（如此处所描述的）
+```
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(12, GPIO.OUT)
+```
+## 2.要将输出设置为高：
+```
+GPIO.output(12, GPIO.HIGH)
+ # 或
+GPIO.output(12, 1)
+ # 或
+GPIO.output(12, True)
+```
+## 3.要将输出设置为低：
+```
+GPIO.output(12, GPIO.LOW)
+ # or
+GPIO.output(12, 0)
+ # or
+GPIO.output(12, False)
+```
+## 4.在同一条指令中同时输出到多个通道
+```
+chan_list = (11,12)
+GPIO.output(chan_list, GPIO.LOW) # 将列表中所有通道都设置为低电平
+GPIO.output(chan_list, (GPIO.HIGH,GPIO.LOW))  # 第一个设置为低电平，第二个设置为高电平
+```
+## 5.在程序结束时对引脚状态进行清理
+```
+GPIO.cleanup()
+```
+请注意，您可以使用input()函数读取一个频道的设置为该输出的通道的当前状态。例如，切换输出：
+```
+GPIO.output(12, not GPIO.input(12))
+```
