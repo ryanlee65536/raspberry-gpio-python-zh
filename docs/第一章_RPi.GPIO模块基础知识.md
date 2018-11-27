@@ -2,7 +2,9 @@
 
 ## 导入模块
 要导入RPi.GPIO模块：
-    import RPi.GPIO as GPIO
+```
+import RPi.GPIO as GPIO
+```
 通过这种方式，您可以在这个程序脚本的其余部分将其称为GPIO。
 
 可以通过抛出异常来检查导入模块是否成功：
