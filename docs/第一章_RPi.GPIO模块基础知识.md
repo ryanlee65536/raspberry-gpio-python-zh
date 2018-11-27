@@ -39,7 +39,7 @@ GPIO.setwarnings(False)
 GPIO.setup(channel, GPIO.IN)
 ```
 （其中channel是基于您指定的编号系统（BOARD或BCM）的通道编号）。
-有关设置输入通道的更多高级信息，请参见[此处]()。
+有关设置输入通道的更多高级信息，请参见[此处](https://github.com/ryanlee65536/raspberry-gpio-python-zh/blob/master/docs/%E7%AC%AC%E4%BA%8C%E7%AB%A0_%E8%BE%93%E5%85%A5.md)。
 要将通道设置为输出：
 ```
 GPIO.setup(channel, GPIO.OUT)
