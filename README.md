@@ -2,7 +2,7 @@
 
 本中文教程翻译自croston的raspberry-gpio-python教程，原文地址为[raspberry-gpio-python](https://sourceforge.net/projects/raspberry-gpio-python/)。本教程供习惯于使用中文的人员参考。
 
-本教程翻译中，如有任何版权问题，请联系ryan.lee.65536.com。
+本教程翻译中，如有任何版权问题，请联系ryan.lee.65536@gmail.com。
 
 由于译者水平有限，如果错误，欢迎指正。
 
