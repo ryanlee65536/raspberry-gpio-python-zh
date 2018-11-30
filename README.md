@@ -12,4 +12,4 @@
 - [第二章 输入](https://github.com/ryanlee65536/raspberry-gpio-python-zh/blob/master/docs/%E7%AC%AC%E4%BA%8C%E7%AB%A0_%E8%BE%93%E5%85%A5.md)
 - [第三章 输出](https://github.com/ryanlee65536/raspberry-gpio-python-zh/blob/master/docs/%E7%AC%AC%E4%B8%89%E7%AB%A0-%E8%BE%93%E5%87%BA.md)
 - [第四章 PWM](https://github.com/ryanlee65536/raspberry-gpio-python-zh/blob/master/docs/%E7%AC%AC%E5%9B%9B%E7%AB%A0-PWM.md)
-- 第五章 检查GPIO通道的功能
+- [第五章 检查GPIO通道的功能](https://github.com/ryanlee65536/raspberry-gpio-python-zh/blob/master/docs/%E7%AC%AC%E4%BA%94%E7%AB%A0-gpio_function%EF%BC%88%E9%80%9A%E9%81%93%EF%BC%89.md)
